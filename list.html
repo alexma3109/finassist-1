@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- Title here -->
+    <title>Metro Mania</title>
+    <!-- Description, Keywords and Author -->
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your,Keywords">
+    <meta name="author" content="ResponsiveWebInc">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styles -->
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+    <link rel="stylesheet" href="css/settings.css" media="screen" />
+    <!-- Pretty Photo CSS -->
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <!-- Parallax slider -->
+    <link rel="stylesheet" href="css/slider.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="css/flexslider.css">
+    <!-- Font awesome CSS -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Colors - Orange, Purple, Light Blue (lblue), Red, Green and Blue -->
+    <link href="css/lblue.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon/favicon.png">
+</head>
+
+<body>
+
+<!-- Header Starts -->
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-4">
+                <div class="logo">
+                    <h1><a href="#"> <span class="color">FinAssist</span></a></h1>
+                    <div class="hmeta">个人理财助理</div>
+                </div>
+            </div>
+            <div class="col-md-5 col-md-offset-3 col-sm-6 col-sm-offset-2">
+                <br/>
+                <h6 style="display: inline;">登陆</h6>
+                <h6 style="display: inline;">注册</h6>
+                <form class="form-inline" role="form" style="padding-top: 10px;">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="search" placeholder="Type Something...">
+                    </div>
+                    <button type="submit" class="btn btn-default">Search</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Navigation bar starts -->
+
+<div class="navbar bs-docs-nav" role="banner">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+
+
+                <li><a href="#">首页</a></li>
+                <li><a href="#">银行理财</a></li>
+                <li><a href="#">基金超市</a></li>
+                <li><a href="#">信托产品</a></li>
+                <li><a href="#">保险产品</a></li>
+                <li><a href="#">资管计划</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<div class = "container search-bar">
+    <span>产品类别：</span>
+    <div class="dropdown" style="display:inline">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+            请选择
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">银行理财</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">基金超市</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">信托产品</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">保险产品</a></li>
+        </ul>
+    </div>
+    <span>产品收益：</span><input class="input-sm search-input" type="text" />
+    <span>投资期限：</span>
+    <div class="dropdown" style="display:inline">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+            请选择
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">一个月</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">二个月</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">三个月</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">半年</a></li>
+        </ul>
+    </div>
+    <span>投资金额：</span><input class="input-sm search-input" type="text" />
+    <span>收益类型：</span>
+    <div class="dropdown" style="display:inline">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+            请选择
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">到期还本息</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">按月还息</a></li>
+        </ul>
+    </div>
+    <span>付息方式：</span>
+    <div class="dropdown" style="display:inline">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+            请选择
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">方式一</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">方式二</a></li>
+        </ul>
+    </div>
+    <button class="btn btn-sm">查询</button>
+</div>
+<!-- Navigation bar ends -->
+<hr/>
+
+   <div class="container">
+
+        <aside class="right-sidebar">
+            <!--Recommanded Items-->
+            <div class="recommanded-items">
+                <span>推荐项目 <a href="#">更多>></a></span>
+                <hr/>
+                <section>
+                <input type="checkbox"/>
+                <p>聚宝财富2015稳赢分行特供第4期（北京）</p>
+                <ul>
+                    <li>预期收益5.2%</li>
+                    <li>期限122月</li>
+                    <li>保本</li>
+                    <li>月付</li>
+                </ul>
+                    <br/>
+            </section>
+            <section>
+                <input type="checkbox"/>
+                <p>聚宝财富2015稳赢分行特供第4期（北京）</p>
+                <ul>
+                    <li>预期收益5.2%</li>
+                    <li>期限122月</li>
+                    <li>保本</li>
+                    <li>月付</li>
+                </ul>
+                <br/>
+            </section>
+            <section>
+                <input type="checkbox"/>
+                <p>聚宝财富2015稳赢分行特供第4期（北京）</p>
+                <ul>
+                    <li>预期收益5.2%</li>
+                    <li>期限122月</li>
+                    <li>保本</li>
+                    <li>月付</li>
+                </ul>
+            </section>
+
+            </div>
+            <!--Related Links-->
+            <div class="related-links">
+                <span>银行咨询 <a href="#">更多>></a></span>
+                <hr/>
+                <ul>
+                <li><a href="#">sample link</a></li>
+                <li><a href="#">sample link</a></li>
+                <li><a href="#">sample link</a></li>
+                <li><a href="#">sample link</a></li>
+                <li><a href="#">sample link</a></li>
+            </ul>
+            </div>
+        </aside>
+
+
+            <!--Filter Criteria-->
+        <div class="filter-criteria">
+            <span>选择地区：</span>
+            <button class="selected-filter">不限</button>
+            <button>北京市</button>
+            <button>天津市</button>
+            <button>上海市</button>
+            <button>重庆市</button>
+            <button>河北省</button>
+            <button>山西省</button>
+            <br/>
+            <span>销售状态：</span>
+            <button class="selected-filter">不限</button>
+            <button>在售</button>
+            <button>预售</button>
+            <button>存续</button>
+            <br/>
+            <span>发行银行：</span>
+            <button>中国银行</button>
+            <button>农业银行</button>
+            <button>建设银行</button>
+            <button>浦发银行</button>
+            <button>平安银行</button>
+            <button>工商银行</button>
+            <br/>
+            <span>预期收益：</span>
+            <button>3%以下</button>
+            <button>3%-6%</button>
+            <button>6%-10%</button>
+            <button>10%-15%</button>
+            <button>15%以上</button>
+            <br/>
+            <span>产品期限：</span>
+            <button>3个月以下</button>
+            <button>3月-6月</button>
+            <button>6月-12月</button>
+            <button>1年-3年</button>
+            <button>3年以上</button>
+            <br/>
+            <span>收益类型：</span>
+            <button class="selected-filter">不限</button>
+            <button>保本固定收益</button>
+            <button>保本浮动收益</button>
+            <button>非保本浮动收益</button>
+        </div>
+       <hr/>
+            <!--Sort Criteria-->
+        <div class="sort-criteria">
+            <ul>
+                <li>原排序</li>
+                <li>预期收益</li>
+                <li>起购金额</li>
+                <li>风险等级</li>
+                <li>管理期</li>
+                <li>销售日期</li>
+            </ul>
+            <input id="fromDate" type="text" placeholder="起">
+            <span>&nbsp;&nbsp;~&nbsp;&nbsp;</span>
+            <input id="toDate" type="text" placeholder="终">
+        </div>
+       <hr/>
+            <!--List View-->
+        <div class="list-view">
+            <table>
+                <thead>
+                    <td>对比</td>
+                    <td>选择地区</td>
+                    <td>产品名称</td>
+                    <td>销售状态</td>
+                    <td>发行机构</td>
+                    <td>预期收益</td>
+                    <td>币种</td>
+                    <td>付息方式</td>
+                    <td>销售日期</td>
+                    <td>管理期（月）</td>
+                    <td>起购金额（万元）</td>
+                    <td>风险等级</td>
+                    <td>收益类型</td>
+                    <td>操作</td>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="checkbox"/></td>
+                        <td>上海</td>
+                        <td>个人</td>
+                        <td>预售</td>
+                        <td>浦发银行</td>
+                        <td>6.68%</td>
+                        <td>人民币</td>
+                        <td>每三月</td>
+                        <td>2015-06-02 至 2015-07-02</td>
+                        <td>12.03</td>
+                        <td>6</td>
+                        <td>较低</td>
+                        <td>不保本</td>
+                        <td><a href="#">详细</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"/></td>
+                        <td>上海</td>
+                        <td>个人</td>
+                        <td>预售</td>
+                        <td>浦发银行</td>
+                        <td>6.68%</td>
+                        <td>人民币</td>
+                        <td>每三月</td>
+                        <td>2015-06-02 至 2015-07-02</td>
+                        <td>12.03</td>
+                        <td>6</td>
+                        <td>较低</td>
+                        <td>不保本</td>
+                        <td><a href="#">详细</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"/></td>
+                        <td>上海</td>
+                        <td>个人</td>
+                        <td>预售</td>
+                        <td>浦发银行</td>
+                        <td>6.68%</td>
+                        <td>人民币</td>
+                        <td>每三月</td>
+                        <td>2015-06-02 至 2015-07-02</td>
+                        <td>12.03</td>
+                        <td>6</td>
+                        <td>较低</td>
+                        <td>不保本</td>
+                        <td><a href="#">详细</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"/></td>
+                        <td>上海</td>
+                        <td>个人</td>
+                        <td>预售</td>
+                        <td>浦发银行</td>
+                        <td>6.68%</td>
+                        <td>人民币</td>
+                        <td>每三月</td>
+                        <td>2015-06-02 至 2015-07-02</td>
+                        <td>12.03</td>
+                        <td>6</td>
+                        <td>较低</td>
+                        <td>不保本</td>
+                        <td><a href="#">详细</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"/></td>
+                        <td>上海</td>
+                        <td>个人</td>
+                        <td>预售</td>
+                        <td>浦发银行</td>
+                        <td>6.68%</td>
+                        <td>人民币</td>
+                        <td>每三月</td>
+                        <td>2015-06-02 至 2015-07-02</td>
+                        <td>12.03</td>
+                        <td>6</td>
+                        <td>较低</td>
+                        <td>不保本</td>
+                        <td><a href="#">详细</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"/></td>
+                        <td>上海</td>
+                        <td>个人</td>
+                        <td>预售</td>
+                        <td>浦发银行</td>
+                        <td>6.68%</td>
+                        <td>人民币</td>
+                        <td>每三月</td>
+                        <td>2015-06-02 至 2015-07-02</td>
+                        <td>12.03</td>
+                        <td>6</td>
+                        <td>较低</td>
+                        <td>不保本</td>
+                        <td><a href="#">详细</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"/></td>
+                        <td>上海</td>
+                        <td>个人</td>
+                        <td>预售</td>
+                        <td>浦发银行</td>
+                        <td>6.68%</td>
+                        <td>人民币</td>
+                        <td>每三月</td>
+                        <td>2015-06-02 至 2015-07-02</td>
+                        <td>12.03</td>
+                        <td>6</td>
+                        <td>较低</td>
+                        <td>不保本</td>
+                        <td><a href="#">详细</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"/></td>
+                        <td>上海</td>
+                        <td>个人</td>
+                        <td>预售</td>
+                        <td>浦发银行</td>
+                        <td>6.68%</td>
+                        <td>人民币</td>
+                        <td>每三月</td>
+                        <td>2015-06-02 至 2015-07-02</td>
+                        <td>12.03</td>
+                        <td>6</td>
+                        <td>较低</td>
+                        <td>不保本</td>
+                        <td><a href="#">详细</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"/></td>
+                        <td>上海</td>
+                        <td>个人</td>
+                        <td>预售</td>
+                        <td>浦发银行</td>
+                        <td>6.68%</td>
+                        <td>人民币</td>
+                        <td>每三月</td>
+                        <td>2015-06-02 至 2015-07-02</td>
+                        <td>12.03</td>
+                        <td>6</td>
+                        <td>较低</td>
+                        <td>不保本</td>
+                        <td><a href="#">详细</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"/></td>
+                        <td>上海</td>
+                        <td>个人</td>
+                        <td>预售</td>
+                        <td>浦发银行</td>
+                        <td>6.68%</td>
+                        <td>人民币</td>
+                        <td>每三月</td>
+                        <td>2015-06-02 至 2015-07-02</td>
+                        <td>12.03</td>
+                        <td>6</td>
+                        <td>较低</td>
+                        <td>不保本</td>
+                        <td><a href="#">详细</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"/></td>
+                        <td>上海</td>
+                        <td>个人</td>
+                        <td>预售</td>
+                        <td>浦发银行</td>
+                        <td>6.68%</td>
+                        <td>人民币</td>
+                        <td>每三月</td>
+                        <td>2015-06-02 至 2015-07-02</td>
+                        <td>12.03</td>
+                        <td>6</td>
+                        <td>较低</td>
+                        <td>不保本</td>
+                        <td><a href="#">详细</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"/></td>
+                        <td>上海</td>
+                        <td>个人</td>
+                        <td>预售</td>
+                        <td>浦发银行</td>
+                        <td>6.68%</td>
+                        <td>人民币</td>
+                        <td>每三月</td>
+                        <td>2015-06-02 至 2015-07-02</td>
+                        <td>12.03</td>
+                        <td>6</td>
+                        <td>较低</td>
+                        <td>不保本</td>
+                        <td><a href="#">详细</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"/></td>
+                        <td>上海</td>
+                        <td>个人</td>
+                        <td>预售</td>
+                        <td>浦发银行</td>
+                        <td>6.68%</td>
+                        <td>人民币</td>
+                        <td>每三月</td>
+                        <td>2015-06-02 至 2015-07-02</td>
+                        <td>12.03</td>
+                        <td>6</td>
+                        <td>较低</td>
+                        <td>不保本</td>
+                        <td><a href="#">详细</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"/></td>
+                        <td>上海</td>
+                        <td>个人</td>
+                        <td>预售</td>
+                        <td>浦发银行</td>
+                        <td>6.68%</td>
+                        <td>人民币</td>
+                        <td>每三月</td>
+                        <td>2015-06-02 至 2015-07-02</td>
+                        <td>12.03</td>
+                        <td>6</td>
+                        <td>较低</td>
+                        <td>不保本</td>
+                        <td><a href="#">详细</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"/></td>
+                        <td>上海</td>
+                        <td>个人</td>
+                        <td>预售</td>
+                        <td>浦发银行</td>
+                        <td>6.68%</td>
+                        <td>人民币</td>
+                        <td>每三月</td>
+                        <td>2015-06-02 至 2015-07-02</td>
+                        <td>12.03</td>
+                        <td>6</td>
+                        <td>较低</td>
+                        <td>不保本</td>
+                        <td><a href="#">详细</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"/></td>
+                        <td>上海</td>
+                        <td>个人</td>
+                        <td>预售</td>
+                        <td>浦发银行</td>
+                        <td>6.68%</td>
+                        <td>人民币</td>
+                        <td>每三月</td>
+                        <td>2015-06-02 至 2015-07-02</td>
+                        <td>12.03</td>
+                        <td>6</td>
+                        <td>较低</td>
+                        <td>不保本</td>
+                        <td><a href="#">详细</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"/></td>
+                        <td>上海</td>
+                        <td>个人</td>
+                        <td>预售</td>
+                        <td>浦发银行</td>
+                        <td>6.68%</td>
+                        <td>人民币</td>
+                        <td>每三月</td>
+                        <td>2015-06-02 至 2015-07-02</td>
+                        <td>12.03</td>
+                        <td>6</td>
+                        <td>较低</td>
+                        <td>不保本</td>
+                        <td><a href="#">详细</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"/></td>
+                        <td>上海</td>
+                        <td>个人</td>
+                        <td>预售</td>
+                        <td>浦发银行</td>
+                        <td>6.68%</td>
+                        <td>人民币</td>
+                        <td>每三月</td>
+                        <td>2015-06-02 至 2015-07-02</td>
+                        <td>12.03</td>
+                        <td>6</td>
+                        <td>较低</td>
+                        <td>不保本</td>
+                        <td><a href="#">详细</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"/></td>
+                        <td>上海</td>
+                        <td>个人</td>
+                        <td>预售</td>
+                        <td>浦发银行</td>
+                        <td>6.68%</td>
+                        <td>人民币</td>
+                        <td>每三月</td>
+                        <td>2015-06-02 至 2015-07-02</td>
+                        <td>12.03</td>
+                        <td>6</td>
+                        <td>较低</td>
+                        <td>不保本</td>
+                        <td><a href="#">详细</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"/></td>
+                        <td>上海</td>
+                        <td>个人</td>
+                        <td>预售</td>
+                        <td>浦发银行</td>
+                        <td>6.68%</td>
+                        <td>人民币</td>
+                        <td>每三月</td>
+                        <td>2015-06-02 至 2015-07-02</td>
+                        <td>12.03</td>
+                        <td>6</td>
+                        <td>较低</td>
+                        <td>不保本</td>
+                        <td><a href="#">详细</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"/></td>
+                        <td>上海</td>
+                        <td>个人</td>
+                        <td>预售</td>
+                        <td>浦发银行</td>
+                        <td>6.68%</td>
+                        <td>人民币</td>
+                        <td>每三月</td>
+                        <td>2015-06-02 至 2015-07-02</td>
+                        <td>12.03</td>
+                        <td>6</td>
+                        <td>较低</td>
+                        <td>不保本</td>
+                        <td><a href="#">详细</a></td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+        <!-- Social -->
+
+        <div class="social-links">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="big"><a href="#">快速入门</a>
+                            <a href="#">常见问题</a>
+                            <a href="#">自助服务</a>
+                            <a href="#">新手指南</a>
+                            <a href="#">关于我们</a>
+                            <a href="#">免责声明</a>
+                            <a href="#">联系我们</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div style="float: right;">
+                            <span class="glyphicons glyphicon-earphone"></span>
+                        </div>
+                        <div class="copy">
+                            <h6>请仔细阅读用户协议，本网站所载文章以及公布的所有金融产品信息仅供参考，投资前请核实，风险自负，理性投资</h6>
+                            <p style="margin: 0 auto;">Copyright &copy; <a href="#">FinAssistant</a>. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </footer>
+
+        <!-- Javascript files -->
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+        <script src="js/jquery.themepunch.plugins.min.js"></script>
+        <script src="js/jquery.themepunch.revolution.min.js"></script>
+        <!-- Isotope for gallery -->
+        <script src="js/jquery.isotope.js"></script>
+        <!-- prettyPhoto for images -->
+        <script src="js/jquery.prettyPhoto.js"></script>
+        <!-- Parallax slider -->
+        <script src="js/jquery.cslider.js"></script>
+        <script src="js/modernizr.custom.28468.js"></script>
+        <!-- Filter for support page -->
+        <script src="js/filter.js"></script>
+        <!-- Cycle slider -->
+        <script src="js/cycle.js"></script>
+        <!-- Flex slider -->
+        <script src="js/jquery.flexslider-min.js"></script>
+        <!-- Easing -->
+        <script src="js/easing.js"></script>
+        <!-- Respond JS for IE8 -->
+        <script src="js/respond.min.js"></script>
+        <!-- HTML5 Support for IE -->
+        <script src="js/html5shiv.js"></script>
+        <!-- Custom JS -->
+        <script src="js/custom.js"></script>
+        <script src="js/bootstrap-datepicker.min.js"></script>
+        <script>
+            // Revolution Slider
+            var revapi;
+            jQuery(document).ready(function() {
+                revapi = jQuery('.tp-banner').revolution(
+                        {
+                            delay: 9000,
+                            startwidth: 1200,
+                            startheight: 500,
+                            hideThumbs: 200,
+                            shadow: 0,
+                            navigationType: "none",
+                            hideThumbsOnMobile: "on",
+                            hideArrowsOnMobile: "on",
+                            hideThumbsUnderResoluition: 0,
+                            touchenabled: "on",
+                            fullWidth: "on"
+                        });
+            });
+            //bootstrap datepicker initialization, restrict max and min date.
+            $(document).ready(function(){
+                $('#fromDate').datepicker({
+                });
+                $('#toDate').datepicker({
+                });
+            });
+
+        </script>
+</body>
+</html>
